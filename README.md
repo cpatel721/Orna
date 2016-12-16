@@ -54,7 +54,7 @@ ronaks-MacBook-Pro: ronakchovatiya$ pwd
 node nightwatch.js -e chrome 
 ```
 
-**To run a specific test 'login'**
+**To run a specific test 'clicks'**
 ```
 node nightwatch.js -e chrome -a clicks 
 ```
