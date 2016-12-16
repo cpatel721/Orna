@@ -18,7 +18,7 @@ this.demoTest = function (browser) {
 };
 
 module.exports = {
-    url: 'https://www.bevybar.com.ar/account/login',
+    url: 'https://www.google.com/login',
     commands: [loginCommands],
     elements: {
         emailInput: {
