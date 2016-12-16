@@ -1,0 +1,49 @@
+11:28:30.547 INFO - Launching a standalone Selenium Server
+11:28:30.595 INFO - Java: Oracle Corporation 24.79-b02
+11:28:30.596 INFO - OS: Mac OS X 10.11.5 x86_64
+11:28:30.613 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+11:28:30.702 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
+11:28:30.702 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
+11:28:30.702 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:28:30.702 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+11:28:30.705 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+11:28:30.705 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+11:28:30.780 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+11:28:30.780 INFO - Selenium Server is up and running
+11:28:31.183 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Clicktest, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]])
+11:28:31.198 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Clicktest, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]
+Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 15163
+Only local connections are allowed.
+11:28:32.793 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Clicktest, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]]
+11:28:32.808 INFO - Executing: [get: https://clickclickclick.click])
+11:28:38.533 INFO - Done: [get: https://clickclickclick.click]
+11:28:38.541 INFO - Executing: [find elements: By.cssSelector: body])
+11:28:38.575 INFO - Done: [find elements: By.cssSelector: body]
+11:28:38.579 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (99a96687557226fff2125f71b9507bdf)] -> css selector: body]])
+11:28:38.593 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (99a96687557226fff2125f71b9507bdf)] -> css selector: body]]
+11:28:38.599 INFO - Executing: [find element: By.cssSelector: body > main > div > div:nth-child(1) > a])
+11:28:38.613 INFO - Done: [find element: By.cssSelector: body > main > div > div:nth-child(1) > a]
+11:28:38.617 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (99a96687557226fff2125f71b9507bdf)] -> css selector: body > main > div > div:nth-child(1) > a]])
+11:28:38.734 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (99a96687557226fff2125f71b9507bdf)] -> css selector: body > main > div > div:nth-child(1) > a]]
+11:28:43.743 INFO - Executing: [set window position])
+11:28:43.902 INFO - Done: [set window position]
+11:28:43.906 INFO - Executing: [find element: By.cssSelector: body > main > div > div:nth-child(1) > a])
+11:28:43.915 INFO - Done: [find element: By.cssSelector: body > main > div > div:nth-child(1) > a]
+11:28:43.918 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (99a96687557226fff2125f71b9507bdf)] -> css selector: body > main > div > div:nth-child(1) > a]])
+11:28:43.941 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (99a96687557226fff2125f71b9507bdf)] -> css selector: body > main > div > div:nth-child(1) > a]]
+11:28:45.947 INFO - Executing: [set window position])
+11:28:46.059 INFO - Done: [set window position]
+11:28:48.067 INFO - Executing: [find element: By.cssSelector: body > main > div > div:nth-child(1) > a])
+11:28:48.074 INFO - Done: [find element: By.cssSelector: body > main > div > div:nth-child(1) > a]
+11:28:48.077 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (99a96687557226fff2125f71b9507bdf)] -> css selector: body > main > div > div:nth-child(1) > a]])
+11:28:48.105 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (99a96687557226fff2125f71b9507bdf)] -> css selector: body > main > div > div:nth-child(1) > a]]
+11:28:48.110 INFO - Executing: [set window position])
+11:28:48.223 INFO - Done: [set window position]
+11:28:48.227 INFO - Executing: [find element: By.cssSelector: body > main > div > div:nth-child(1) > a])
+11:28:48.235 INFO - Done: [find element: By.cssSelector: body > main > div > div:nth-child(1) > a]
+11:28:48.240 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (99a96687557226fff2125f71b9507bdf)] -> css selector: body > main > div > div:nth-child(1) > a]])
+11:28:48.266 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (99a96687557226fff2125f71b9507bdf)] -> css selector: body > main > div > div:nth-child(1) > a]]
+11:28:48.271 INFO - Executing: [delete session: 79fb66ee-7646-43eb-a60b-667562fb5b21])
+11:28:48.415 INFO - Done: [delete session: 79fb66ee-7646-43eb-a60b-667562fb5b21]
