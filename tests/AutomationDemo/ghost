@@ -1,4 +1,5 @@
 module.exports = {
+'@tags': ['clicks'],
   'Login Page Initial Render': function( _browser ) {
     _browser
       .url('www.google.com')
@@ -17,6 +18,3 @@ module.exports = {
   }
 
 }
-
-//body > div.overlay-layer > section > button
-///html/body/div[1]/section/button
