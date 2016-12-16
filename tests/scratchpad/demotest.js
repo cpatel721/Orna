@@ -1,6 +1,6 @@
 module.exports = {
-  'Login Page Initial Render': function( _browser ) {
-    _browser
+  'Login Page Initial Render': function( browser ) {
+    browser
       .url('www.google.com')
       .waitForElementVisible( 'body', 1000 )
       .acceptAlert()
@@ -10,8 +10,8 @@ module.exports = {
       .pause(1000)
   },
 
- 'Browser quit': function( _browser ) {
-    _browser
+ 'Browser quit': function( browser ) {
+    browser
       .pause(1000)
       .end();
   }

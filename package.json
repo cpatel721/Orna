@@ -1,0 +1,31 @@
+{
+  "name": "orna-automation-testing",
+  "version": "1.0.0",
+  "description": "UI automated testing framework powered by Node.js. It uses the Selenium WebDriver API.",
+  "main": "nightwatch.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchovatiya88/Orna.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchovatiya88/Orna/issues"
+  },
+  "homepage": "https://github.com/rchovatiya88/Orna",
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "istanbul": "^0.4.5",
+    "nightwatch-allure-adapter": "^1.2.4"
+  }
+}

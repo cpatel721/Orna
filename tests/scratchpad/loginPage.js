@@ -1,5 +1,5 @@
 const loginCommands = {
-    login(email, pass) {
+  login(email, pass) {
         return this
             .waitForElementVisible('@emailInput')
             .setValue('@emailInput', email)
@@ -8,8 +8,6 @@ const loginCommands = {
             .click('@loginButton')
     }
 };
-
-
 this.demoTest = function (browser) {
     browser.windowhandles(function(result) {
         var handle = result.value[0];

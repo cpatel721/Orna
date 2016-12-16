@@ -5,9 +5,9 @@
 
   <testsuite name="clicktest"
     errors="1" failures="0" hostname="" id="" package="scratchpad" skipped="1"
-    tests="2" time="17.50" timestamp="Fri, 16 Dec 2016 16:28:30 GMT">
+    tests="2" time="14.64" timestamp="Fri, 16 Dec 2016 19:00:34 GMT">
   
-    <testcase name="go to click click " time="17.50" assertions="1">
+    <testcase name="go to click click " time="14.64" assertions="1">
 
     
     </testcase>
