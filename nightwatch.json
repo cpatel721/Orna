@@ -33,8 +33,8 @@
             "platform":"Windows",
             "javascriptEnabled": true,
             "acceptSslCerts": true,
-            "browserstack.user": "ronakchovatiya1",
-            "browserstack.key": "Uktvqnp48dqV3yEpy5EL"
+            "browserstack.user": "",
+            "browserstack.key": ""
           },
 
         "desiredCapabilities": {
@@ -43,8 +43,8 @@
           "device": "Samsung Galaxy S5",
           "javascriptEnabled": true,
           "acceptSslCerts": true,
-          "browserstack.user": "ronakchovatiya1",
-          "browserstack.key": "Uktvqnp48dqV3yEpy5EL"
+          "browserstack.user": "",
+          "browserstack.key": ""
         }
 
 },
