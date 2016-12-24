@@ -14,7 +14,7 @@ module.exports = {
               var temp = result.value[1];
               this.switchWindow(temp);
             })
-            .assert.urlContains('twitter')
-            .end();
+            .assert.urlContains('twitter');
+            // .end();
   }
 };

@@ -1,41 +1,27 @@
-16:18:12.102 INFO - Launching a standalone Selenium Server
-16:18:12.133 INFO - Java: Oracle Corporation 24.79-b02
-16:18:12.133 INFO - OS: Mac OS X 10.11.5 x86_64
-16:18:12.143 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-16:18:12.199 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+14:56:28.599 INFO - Launching a standalone Selenium Server
+14:56:28.635 INFO - Java: Oracle Corporation 24.79-b02
+14:56:28.635 INFO - OS: Mac OS X 10.11.5 x86_64
+14:56:28.646 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+14:56:28.701 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
-16:18:12.199 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+14:56:28.701 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
-16:18:12.200 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-16:18:12.200 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-16:18:12.201 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-16:18:12.202 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-16:18:12.251 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-16:18:12.251 INFO - Selenium Server is up and running
-16:18:12.559 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Open New Window, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]])
-16:18:12.570 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Open New Window, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]
-Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 9316
+14:56:28.701 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:56:28.701 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:56:28.703 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+14:56:28.703 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+14:56:28.749 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+14:56:28.749 INFO - Selenium Server is up and running
+14:56:29.041 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Testgit, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]])
+14:56:29.049 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Testgit, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]
+Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 26664
 Only local connections are allowed.
-16:18:13.769 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Open New Window, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]]
-16:18:13.786 INFO - Executing: [get: http://www.google.com])
-16:18:15.973 INFO - Done: [get: http://www.google.com]
-16:18:15.981 INFO - Executing: [find elements: By.cssSelector: body])
-16:18:16.010 INFO - Done: [find elements: By.cssSelector: body]
-16:18:16.015 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (27e3ebeee4098dfcdb4da8e5e7709acb)] -> css selector: body]])
-16:18:16.026 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (27e3ebeee4098dfcdb4da8e5e7709acb)] -> css selector: body]]
-16:18:19.035 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (newWindow) {
-              window.open('http://www.twitter.com', null, 'height=1024,width=768');
-            }.apply(window, passedArgs);, [http://www.google.com]])
-16:18:19.095 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (newWindow) {
-              window.open('http://www.twitter.com', null, 'height=1024,width=768');
-            }.apply(window, passedArgs);, [http://www.google.com]]
-16:18:19.100 INFO - Executing: [get current url])
-16:18:19.106 INFO - Done: [get current url]
-16:18:19.109 INFO - Executing: [get window handles])
-16:18:19.113 INFO - Done: [get window handles]
-16:18:19.118 INFO - Executing: [switch to window: CDwindow-fd7cc2d6-900b-41d8-823d-ef14cb2b38dd])
-16:18:19.123 INFO - Done: [switch to window: CDwindow-fd7cc2d6-900b-41d8-823d-ef14cb2b38dd]
-16:18:19.127 INFO - Executing: [get current url])
-16:18:21.256 INFO - Done: [get current url]
-16:18:21.261 INFO - Executing: [delete session: 438be8f5-0c72-48cf-aac0-216f455f70d2])
-16:18:21.343 INFO - Done: [delete session: 438be8f5-0c72-48cf-aac0-216f455f70d2]
+14:56:30.137 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Testgit, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]]
+14:56:30.160 INFO - Executing: [get: https://www.github.com])
+14:56:31.490 INFO - Done: [get: https://www.github.com]
+14:56:31.504 INFO - Executing: [find elements: By.cssSelector: body])
+14:56:31.540 INFO - Done: [find elements: By.cssSelector: body]
+14:56:31.544 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (9d8ba7393abdfe47fa1277760f9a7f91)] -> css selector: body]])
+14:56:31.556 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (9d8ba7393abdfe47fa1277760f9a7f91)] -> css selector: body]]
+14:56:41.574 INFO - Executing: [delete session: 3b0c6692-6859-4bf2-b678-c3c62cdb2871])
+14:56:41.652 INFO - Done: [delete session: 3b0c6692-6859-4bf2-b678-c3c62cdb2871]
