@@ -1,27 +1,75 @@
-14:56:28.599 INFO - Launching a standalone Selenium Server
-14:56:28.635 INFO - Java: Oracle Corporation 24.79-b02
-14:56:28.635 INFO - OS: Mac OS X 10.11.5 x86_64
-14:56:28.646 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-14:56:28.701 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+14:30:18.976 INFO - Launching a standalone Selenium Server
+14:30:19.033 INFO - Java: Oracle Corporation 24.79-b02
+14:30:19.033 INFO - OS: Mac OS X 10.11.5 x86_64
+14:30:19.049 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+14:30:19.144 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
-14:56:28.701 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+14:30:19.144 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
-14:56:28.701 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:56:28.701 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-14:56:28.703 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-14:56:28.703 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-14:56:28.749 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-14:56:28.749 INFO - Selenium Server is up and running
-14:56:29.041 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Testgit, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]])
-14:56:29.049 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Testgit, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]
-Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 26664
+14:30:19.144 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:30:19.145 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:30:19.146 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+14:30:19.147 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+14:30:19.242 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+14:30:19.242 INFO - Selenium Server is up and running
+14:30:19.726 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Opencart / Data Entry, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]])
+14:30:19.743 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Opencart / Data Entry, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]
+Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 47410
 Only local connections are allowed.
-14:56:30.137 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Scratchpad / Testgit, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]]
-14:56:30.160 INFO - Executing: [get: https://www.github.com])
-14:56:31.490 INFO - Done: [get: https://www.github.com]
-14:56:31.504 INFO - Executing: [find elements: By.cssSelector: body])
-14:56:31.540 INFO - Done: [find elements: By.cssSelector: body]
-14:56:31.544 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (9d8ba7393abdfe47fa1277760f9a7f91)] -> css selector: body]])
-14:56:31.556 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (9d8ba7393abdfe47fa1277760f9a7f91)] -> css selector: body]]
-14:56:41.574 INFO - Executing: [delete session: 3b0c6692-6859-4bf2-b678-c3c62cdb2871])
-14:56:41.652 INFO - Done: [delete session: 3b0c6692-6859-4bf2-b678-c3c62cdb2871]
+14:30:22.631 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Opencart / Data Entry, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}}]]
+14:30:22.668 INFO - Executing: [get: http://35.164.69.135/admin])
+14:30:26.498 INFO - Done: [get: http://35.164.69.135/admin]
+14:30:26.517 INFO - Executing: [find elements: By.cssSelector: body])
+14:30:26.594 INFO - Done: [find elements: By.cssSelector: body]
+14:30:26.604 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: body]])
+14:30:26.625 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: body]]
+14:30:28.656 INFO - Executing: [find element: By.cssSelector: #input-username])
+14:30:28.712 INFO - Done: [find element: By.cssSelector: #input-username]
+14:30:28.730 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #input-username], [a, d, m, i, n]])
+14:30:28.902 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #input-username], [a, d, m, i, n]]
+14:30:28.921 INFO - Executing: [find element: By.cssSelector: #input-password])
+14:30:28.973 INFO - Done: [find element: By.cssSelector: #input-password]
+14:30:28.983 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #input-password], [a, d, m, i, n]])
+14:30:29.074 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #input-password], [a, d, m, i, n]]
+14:30:29.089 INFO - Executing: [find element: By.cssSelector: #content > div > div > div > div > div.panel-body > form > div.text-right > button])
+14:30:29.143 INFO - Done: [find element: By.cssSelector: #content > div > div > div > div > div.panel-body > form > div.text-right > button]
+14:30:29.155 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #content > div > div > div > div > div.panel-body > form > div.text-right > button]])
+14:30:30.627 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #content > div > div > div > div > div.panel-body > form > div.text-right > button]]
+14:30:32.643 INFO - Executing: [find element: By.cssSelector: #catalog > a])
+14:30:32.682 INFO - Done: [find element: By.cssSelector: #catalog > a]
+14:30:32.696 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #catalog > a]])
+14:30:32.775 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #catalog > a]]
+14:30:32.787 INFO - Executing: [find element: By.cssSelector: #catalog > ul > li:nth-child(2) > a])
+14:30:32.821 INFO - Done: [find element: By.cssSelector: #catalog > ul > li:nth-child(2) > a]
+14:30:32.830 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #catalog > ul > li:nth-child(2) > a]])
+14:30:34.563 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #catalog > ul > li:nth-child(2) > a]]
+14:30:37.580 INFO - Executing: [find element: By.cssSelector: #content > div.page-header > div > div > a])
+14:30:37.603 INFO - Done: [find element: By.cssSelector: #content > div.page-header > div > div > a]
+14:30:37.612 INFO - Executing: [click: 6 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #content > div.page-header > div > div > a]])
+14:30:38.706 INFO - Done: [click: 6 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #content > div.page-header > div > div > a]]
+14:30:41.727 INFO - Executing: [find element: By.cssSelector: #input-name1])
+14:30:41.749 INFO - Done: [find element: By.cssSelector: #input-name1]
+14:30:41.762 INFO - Executing: [send keys: 7 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #input-name1], [T, h, i, s,  , i, s,  , P, r, o, d, u, c, t,  , T, i, t, l, e,  , f, o, r,  , D, i, a, m, o, n, d,  , R, i, n, g,  , i, n,  , 1, 0, K,  , G, o, l, d]])
+14:30:42.121 INFO - Done: [send keys: 7 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #input-name1], [T, h, i, s,  , i, s,  , P, r, o, d, u, c, t,  , T, i, t, l, e,  , f, o, r,  , D, i, a, m, o, n, d,  , R, i, n, g,  , i, n,  , 1, 0, K,  , G, o, l, d]]
+14:30:42.129 INFO - Executing: [find element: By.cssSelector: #language1 > div:nth-child(2) > div > div > div.note-editing-area > div.note-editable.panel-body])
+14:30:42.166 INFO - Done: [find element: By.cssSelector: #language1 > div:nth-child(2) > div > div > div.note-editing-area > div.note-editable.panel-body]
+14:30:42.180 INFO - Executing: [send keys: 8 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #language1 > div:nth-child(2) > div > div > div.note-editing-area > div.note-editable.panel-body], [T, h, i, s,  , i, s,  , t, h, e,  , d, e, s, c, r, i, p, t, i, o, n,  , f, o, r,  , t, h, e,  , p, r, o, d, u, c, t,  , a, n, d,  , o, t, h, e, r,  , d, e, t, a, i, l, s,  , s, u, c, h,  , g, o, l, d, ,,  , s, t, u, n, n, i, n, g,  , b, e, a, u, t, i, f, u, l,  , r, i, n, g,  , e, e, t, c, .]])
+14:30:43.709 INFO - Done: [send keys: 8 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #language1 > div:nth-child(2) > div > div > div.note-editing-area > div.note-editable.panel-body], [T, h, i, s,  , i, s,  , t, h, e,  , d, e, s, c, r, i, p, t, i, o, n,  , f, o, r,  , t, h, e,  , p, r, o, d, u, c, t,  , a, n, d,  , o, t, h, e, r,  , d, e, t, a, i, l, s,  , s, u, c, h,  , g, o, l, d, ,,  , s, t, u, n, n, i, n, g,  , b, e, a, u, t, i, f, u, l,  , r, i, n, g,  , e, e, t, c, .]]
+14:30:43.722 INFO - Executing: [find element: By.cssSelector: #input-meta-title1])
+14:30:43.780 INFO - Done: [find element: By.cssSelector: #input-meta-title1]
+14:30:43.795 INFO - Executing: [send keys: 9 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #input-meta-title1], [T, h, i, s,  , i, s,  , M, e, t, a,  , T, a, g,  , d, e, s, c, r, i, p, t, i, o, n,  , D, i, a, m, o, n, d,  , R, i, n, g,  , i, n,  , 1, 0, K,  , G, o, l, d]])
+14:30:44.113 INFO - Done: [send keys: 9 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #input-meta-title1], [T, h, i, s,  , i, s,  , M, e, t, a,  , T, a, g,  , d, e, s, c, r, i, p, t, i, o, n,  , D, i, a, m, o, n, d,  , R, i, n, g,  , i, n,  , 1, 0, K,  , G, o, l, d]]
+14:30:44.127 INFO - Executing: [find element: By.cssSelector: #form-product > ul > li:nth-child(2) > a])
+14:30:44.152 INFO - Done: [find element: By.cssSelector: #form-product > ul > li:nth-child(2) > a]
+14:30:44.160 INFO - Executing: [click: 10 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #form-product > ul > li:nth-child(2) > a]])
+14:30:44.230 INFO - Done: [click: 10 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #form-product > ul > li:nth-child(2) > a]]
+14:30:44.245 INFO - Executing: [find element: By.cssSelector: #input-model])
+14:30:44.299 INFO - Done: [find element: By.cssSelector: #input-model]
+14:30:44.314 INFO - Executing: [send keys: 11 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #input-model], [S, k, u, N, u, m, b, e, r, 1, 2, 3, 1]])
+14:30:44.484 INFO - Done: [send keys: 11 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #input-model], [S, k, u, N, u, m, b, e, r, 1, 2, 3, 1]]
+14:30:44.499 INFO - Executing: [find element: By.cssSelector: #content > div.page-header > div > div > button > i])
+14:30:44.608 INFO - Done: [find element: By.cssSelector: #content > div.page-header > div > div > button > i]
+14:30:44.616 INFO - Executing: [click: 12 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #content > div.page-header > div > div > button > i]])
+14:30:46.572 INFO - Done: [click: 12 [[ChromeDriver: chrome on MAC (516e7ba86680a439a991c8bee57894ed)] -> css selector: #content > div.page-header > div > div > button > i]]
+14:30:46.589 INFO - Executing: [delete session: 453709c1-3903-475e-8ad3-261325d51d64])
+14:30:46.858 INFO - Done: [delete session: 453709c1-3903-475e-8ad3-261325d51d64]
