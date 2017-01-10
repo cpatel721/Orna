@@ -4,7 +4,7 @@ module.exports = {
     browser
       .url('https://www.bevybar.com.ar/')
       .waitForElementVisible('body', 1000)
-      .pause(1000)
+      .pause(2000)
       .click('#Layer_1')
       .pause(3000);
   },
