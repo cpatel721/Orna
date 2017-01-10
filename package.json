@@ -4,10 +4,10 @@
   "description": "UI automated testing framework powered by Node.js. It uses the Selenium WebDriver API.",
   "main": "nightwatch.js",
   "directories": {
-    "test": "tests"
+    "test": "home/ubuntu/Orna"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node nightwatch -e chrome -a orna",
     "lint": "eslint ."
   },
   "repository": {
