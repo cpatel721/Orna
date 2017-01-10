@@ -41,4 +41,3 @@ module.exports = {
       .end();
   }
 };
-// Automated the OPEN CART DONE~!!!!
