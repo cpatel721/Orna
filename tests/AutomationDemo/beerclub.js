@@ -1,5 +1,5 @@
 module.exports = {
-  '@tags': ['beer-club'],
+  '@tags': ['beerclub'],
   'Go to Google': function (browser) {
     browser
       .url('https://testing.beerhawk.co.uk/beer-club/')

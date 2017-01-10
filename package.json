@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "node nightwatch -e bstk -a orna",
+    "test": "node nightwatch -e bstk -a beerclub",
     "lint": "eslint ."
   },
   "repository": {
