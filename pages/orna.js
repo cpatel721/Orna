@@ -1,3 +1,5 @@
+var host = 'http://www.google.com';
+
 module.exports = {
   '@tags': ['orna'],
   // 'some test': function (browser) {
