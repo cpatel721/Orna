@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "node nightwatch -e bstk -a beerclub",
+    "test": "node nightwatch -e bstk -a bevybar",
     "lint": "eslint ."
   },
   "repository": {
