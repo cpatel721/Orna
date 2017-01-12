@@ -2,14 +2,14 @@ module.exports = {
   '@tags': ['opencart'],
   'Go to opencartAdmin': function (browser) {
     browser
-      .url('http://35.164.69.135/admin')
+      .url('dmin')
       .waitForElementVisible('body', 1000)
       .pause(2000);
   },
   'Login': function (browser) {
     browser
-      .setValue('#input-username', 'admin')
-      .setValue('#input-password', 'admin')
+      .setValue('#input-username', '')
+      .setValue('#input-password', '')
       .click('#content > div > div > div > div > div.panel-body > form > div.text-right > button')
       .pause(2000);
   },

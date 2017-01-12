@@ -45,8 +45,8 @@
         "platform": "Windows",
         "javascriptEnabled": true,
         "acceptSslCerts": true,
-        "browserstack.user": "ronakchovatiya1",
-        "browserstack.key": "Uktvqnp48dqV3yEpy5EL"
+        "browserstack.user": "",
+        "browserstack.key": ""
       }
     },
     "safari": {
