@@ -1,4 +1,4 @@
-ghtwatch Sylabus
+nightwatch Sylabus
 ============================
 
 Ornait - Let's automate the web!
