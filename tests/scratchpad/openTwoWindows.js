@@ -1,9 +1,10 @@
 var host = 'http://www.google.com';
+
 module.exports = {
   '@tags': ['window'],
   'some test': function (client) {
     client
-            .url(host);
+          .url(host);
     client.waitForElementVisible('body', 1000);
     client.pause(3000)
             .execute(function (newWindow) {
@@ -15,6 +16,6 @@ module.exports = {
               this.switchWindow(temp);
             })
             .assert.urlContains('twitter');
-            // .end();
+        // .end();
   }
 };
