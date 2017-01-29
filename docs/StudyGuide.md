@@ -1,11 +1,8 @@
-#Overview
---
+#Course Syllabus
+##Overview
 ##What is Selenium?
-==
 ##What is Automation Testing Framework?
-==
 ##What is Javascript?
-==
 ##What is Nightwatch.JS?
 ##Tips and Best Practices
 ##Getting Started
@@ -14,7 +11,7 @@
 ##Tools
 ##Begin Code!
 ##First Project - “Hello,World!”
-#3Detail Process Explanation
+##Detail Process Explanation
 ##Logging and Error Handling
 ##Take it for Spin!
 #Build the Testing Framework
