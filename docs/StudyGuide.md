@@ -1,5 +1,5 @@
 #Course Syllabus
-##Overview
+##_Overview_
 ##What is Selenium?
 ##What is Automation Testing Framework?
 ##What is Javascript?
@@ -7,14 +7,14 @@
 ##Tips and Best Practices
 ##Getting Started
 ##Prerequisites
-#Installation
+##Installation
 ##Tools
 ##Begin Code!
 ##First Project - “Hello,World!”
 ##Detail Process Explanation
 ##Logging and Error Handling
 ##Take it for Spin!
-#Build the Testing Framework
+##Build the Testing Framework
 ##Adding Test Reporter
 ##Multiple Browsers
 ##Recording Screenshots & Videos
