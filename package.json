@@ -26,6 +26,7 @@
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.1",
     "istanbul": "^0.4.5",
-    "nightwatch-allure-adapter": "^1.2.4"
+    "nightwatch-allure-adapter": "^1.2.4",
+    "nightwatch-slack-reporter": "0.0.2"
   }
 }
