@@ -1,27 +1,93 @@
-13:01:38.521 INFO - Launching a standalone Selenium Server
-13:01:38.565 INFO - Java: Oracle Corporation 25.121-b13
-13:01:38.565 INFO - OS: Mac OS X 10.11.5 x86_64
-13:01:38.587 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-13:01:38.674 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+10:49:10.303 INFO - Launching a standalone Selenium Server
+10:49:10.343 INFO - Java: Oracle Corporation 25.121-b13
+10:49:10.343 INFO - OS: Mac OS X 10.11.5 x86_64
+10:49:10.364 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+10:49:10.441 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-13:01:38.674 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+10:49:10.441 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-13:01:38.674 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-13:01:38.675 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-13:01:38.677 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-13:01:38.677 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-13:01:38.773 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-13:01:38.773 INFO - Selenium Server is up and running
-13:01:39.112 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Scratchpad / Watsapp, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
-13:01:39.126 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Scratchpad / Watsapp, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
-Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 31058
+10:49:10.442 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+10:49:10.442 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+10:49:10.444 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+10:49:10.445 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+10:49:10.535 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+10:49:10.535 INFO - Selenium Server is up and running
+10:49:10.885 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Youtube, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
+10:49:10.899 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Youtube, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
+Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 27942
 Only local connections are allowed.
-13:01:40.444 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Scratchpad / Watsapp, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
-13:01:40.461 INFO - Executing: [get: https://web.whatsapp.com/])
-13:01:45.262 INFO - Done: [get: https://web.whatsapp.com/]
-13:01:45.274 INFO - Executing: [find elements: By.cssSelector: body])
-13:01:45.311 INFO - Done: [find elements: By.cssSelector: body]
-13:01:45.317 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (79c79f7beaf91da2acda144719552c37)] -> css selector: body]])
-13:01:45.339 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (79c79f7beaf91da2acda144719552c37)] -> css selector: body]]
-13:01:47.350 INFO - Executing: [delete session: 25568c7f-4036-42d5-9a86-2bf6e3e7c09f])
-13:01:47.446 INFO - Done: [delete session: 25568c7f-4036-42d5-9a86-2bf6e3e7c09f]
+10:49:12.218 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Youtube, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
+10:49:12.232 INFO - Executing: [get: https://www.youtube.com/watch?v=lc2KO604wxg])
+10:49:13.386 INFO - Done: [get: https://www.youtube.com/watch?v=lc2KO604wxg]
+10:49:18.399 INFO - Executing: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ])
+10:49:19.223 INFO - Done: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ]
+10:49:24.228 INFO - Executing: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI])
+10:49:25.014 INFO - Done: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI]
+10:49:30.022 INFO - Executing: [get: https://www.youtube.com/watch?v=fXM8hlnadVs])
+10:49:30.758 INFO - Done: [get: https://www.youtube.com/watch?v=fXM8hlnadVs]
+10:49:35.764 INFO - Executing: [get: https://www.youtube.com/watch?v=lc2KO604wxg])
+10:49:36.484 INFO - Done: [get: https://www.youtube.com/watch?v=lc2KO604wxg]
+10:49:41.493 INFO - Executing: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ])
+10:49:42.081 INFO - Done: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ]
+10:49:47.093 INFO - Executing: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI])
+10:49:47.774 INFO - Done: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI]
+10:49:52.782 INFO - Executing: [get: https://www.youtube.com/watch?v=fXM8hlnadVs])
+10:49:53.472 INFO - Done: [get: https://www.youtube.com/watch?v=fXM8hlnadVs]
+10:49:58.480 INFO - Executing: [get: https://www.youtube.com/watch?v=lc2KO604wxg])
+10:49:59.042 INFO - Done: [get: https://www.youtube.com/watch?v=lc2KO604wxg]
+10:50:04.052 INFO - Executing: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ])
+10:50:04.742 INFO - Done: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ]
+10:50:09.750 INFO - Executing: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI])
+10:50:10.506 INFO - Done: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI]
+10:50:15.517 INFO - Executing: [get: https://www.youtube.com/watch?v=fXM8hlnadVs])
+10:50:16.213 INFO - Done: [get: https://www.youtube.com/watch?v=fXM8hlnadVs]
+10:50:21.222 INFO - Executing: [get: https://www.youtube.com/watch?v=lc2KO604wxg])
+10:50:22.003 INFO - Done: [get: https://www.youtube.com/watch?v=lc2KO604wxg]
+10:50:27.013 INFO - Executing: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ])
+10:50:27.856 INFO - Done: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ]
+10:50:32.864 INFO - Executing: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI])
+10:50:33.480 INFO - Done: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI]
+10:50:38.488 INFO - Executing: [get: https://www.youtube.com/watch?v=fXM8hlnadVs])
+10:50:39.133 INFO - Done: [get: https://www.youtube.com/watch?v=fXM8hlnadVs]
+10:50:44.144 INFO - Executing: [get: https://www.youtube.com/watch?v=lc2KO604wxg])
+10:50:44.784 INFO - Done: [get: https://www.youtube.com/watch?v=lc2KO604wxg]
+10:50:49.792 INFO - Executing: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ])
+10:50:50.410 INFO - Done: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ]
+10:50:55.419 INFO - Executing: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI])
+10:50:56.255 INFO - Done: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI]
+10:51:01.265 INFO - Executing: [get: https://www.youtube.com/watch?v=fXM8hlnadVs])
+10:51:01.816 INFO - Done: [get: https://www.youtube.com/watch?v=fXM8hlnadVs]
+10:51:06.821 INFO - Executing: [get: https://www.youtube.com/watch?v=lc2KO604wxg])
+10:51:07.617 INFO - Done: [get: https://www.youtube.com/watch?v=lc2KO604wxg]
+10:51:12.627 INFO - Executing: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ])
+10:51:13.201 INFO - Done: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ]
+10:51:18.212 INFO - Executing: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI])
+10:51:19.092 INFO - Done: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI]
+10:51:24.104 INFO - Executing: [get: https://www.youtube.com/watch?v=fXM8hlnadVs])
+10:51:24.696 INFO - Done: [get: https://www.youtube.com/watch?v=fXM8hlnadVs]
+10:51:29.706 INFO - Executing: [get: https://www.youtube.com/watch?v=lc2KO604wxg])
+10:51:30.311 INFO - Done: [get: https://www.youtube.com/watch?v=lc2KO604wxg]
+10:51:35.320 INFO - Executing: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ])
+10:51:36.002 INFO - Done: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ]
+10:51:41.010 INFO - Executing: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI])
+10:51:41.623 INFO - Done: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI]
+10:51:46.632 INFO - Executing: [get: https://www.youtube.com/watch?v=fXM8hlnadVs])
+10:51:47.273 INFO - Done: [get: https://www.youtube.com/watch?v=fXM8hlnadVs]
+10:51:52.282 INFO - Executing: [get: https://www.youtube.com/watch?v=lc2KO604wxg])
+10:51:52.856 INFO - Done: [get: https://www.youtube.com/watch?v=lc2KO604wxg]
+10:51:57.867 INFO - Executing: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ])
+10:51:58.543 INFO - Done: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ]
+10:52:03.549 INFO - Executing: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI])
+10:52:04.252 INFO - Done: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI]
+10:52:09.258 INFO - Executing: [get: https://www.youtube.com/watch?v=fXM8hlnadVs])
+10:52:10.046 INFO - Done: [get: https://www.youtube.com/watch?v=fXM8hlnadVs]
+10:52:15.061 INFO - Executing: [get: https://www.youtube.com/watch?v=lc2KO604wxg])
+10:52:15.716 INFO - Done: [get: https://www.youtube.com/watch?v=lc2KO604wxg]
+10:52:20.729 INFO - Executing: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ])
+10:52:21.384 INFO - Done: [get: https://www.youtube.com/watch?v=wfwgt-7IZLQ]
+10:52:26.390 INFO - Executing: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI])
+10:52:26.941 INFO - Done: [get: https://www.youtube.com/watch?v=akqV7Mz4WPI]
+10:52:31.949 INFO - Executing: [get: https://www.youtube.com/watch?v=fXM8hlnadVs])
+10:52:32.709 INFO - Done: [get: https://www.youtube.com/watch?v=fXM8hlnadVs]
+10:52:37.722 INFO - Executing: [delete session: 56301564-143e-4cad-863c-1c6b64921348])
+10:52:37.905 INFO - Done: [delete session: 56301564-143e-4cad-863c-1c6b64921348]
