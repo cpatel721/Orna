@@ -1,31 +1,27 @@
-14:26:39.518 INFO - Launching a standalone Selenium Server
-14:26:39.547 INFO - Java: Oracle Corporation 25.121-b13
-14:26:39.547 INFO - OS: Mac OS X 10.11.5 x86_64
-14:26:39.559 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-14:26:39.615 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+13:01:38.521 INFO - Launching a standalone Selenium Server
+13:01:38.565 INFO - Java: Oracle Corporation 25.121-b13
+13:01:38.565 INFO - OS: Mac OS X 10.11.5 x86_64
+13:01:38.587 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+13:01:38.674 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-14:26:39.616 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+13:01:38.674 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-14:26:39.616 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:26:39.616 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-14:26:39.618 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-14:26:39.619 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-14:26:39.684 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-14:26:39.684 INFO - Selenium Server is up and running
-14:26:39.987 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Automation Demo / Orna, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
-14:26:39.996 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Automation Demo / Orna, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
-Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 28128
+13:01:38.674 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:01:38.675 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:01:38.677 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+13:01:38.677 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+13:01:38.773 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:01:38.773 INFO - Selenium Server is up and running
+13:01:39.112 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Scratchpad / Watsapp, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
+13:01:39.126 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Scratchpad / Watsapp, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
+Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 31058
 Only local connections are allowed.
-14:26:41.111 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Automation Demo / Orna, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
-14:26:41.124 INFO - Executing: [get: https://www.google.com/])
-14:26:43.058 INFO - Done: [get: https://www.google.com/]
-14:26:48.084 INFO - Executing: [find element: By.cssSelector: #gbqfbb])
-14:26:48.108 INFO - Done: [find element: By.cssSelector: #gbqfbb]
-14:26:48.113 INFO - Executing: [click: 0 [[ChromeDriver: chrome on MAC (54946a81a71cfe5ebf64d7ff33f33e5a)] -> css selector: #gbqfbb]])
-14:26:48.154 INFO - Done: [click: 0 [[ChromeDriver: chrome on MAC (54946a81a71cfe5ebf64d7ff33f33e5a)] -> css selector: #gbqfbb]]
-14:26:51.163 INFO - Executing: [find element: By.cssSelector: #tsf > div.tsf-p > div.jsb > center > div])
-14:26:51.177 INFO - Done: [find element: By.cssSelector: #tsf > div.tsf-p > div.jsb > center > div]
-14:26:51.180 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (54946a81a71cfe5ebf64d7ff33f33e5a)] -> css selector: #tsf > div.tsf-p > div.jsb > center > div]])
-14:26:52.755 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (54946a81a71cfe5ebf64d7ff33f33e5a)] -> css selector: #tsf > div.tsf-p > div.jsb > center > div]]
-14:26:57.772 INFO - Executing: [delete session: 397985d9-3c31-42cc-8a36-b1a1557477cd])
-14:26:57.910 INFO - Done: [delete session: 397985d9-3c31-42cc-8a36-b1a1557477cd]
+13:01:40.444 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Scratchpad / Watsapp, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
+13:01:40.461 INFO - Executing: [get: https://web.whatsapp.com/])
+13:01:45.262 INFO - Done: [get: https://web.whatsapp.com/]
+13:01:45.274 INFO - Executing: [find elements: By.cssSelector: body])
+13:01:45.311 INFO - Done: [find elements: By.cssSelector: body]
+13:01:45.317 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (79c79f7beaf91da2acda144719552c37)] -> css selector: body]])
+13:01:45.339 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (79c79f7beaf91da2acda144719552c37)] -> css selector: body]]
+13:01:47.350 INFO - Executing: [delete session: 25568c7f-4036-42d5-9a86-2bf6e3e7c09f])
+13:01:47.446 INFO - Done: [delete session: 25568c7f-4036-42d5-9a86-2bf6e3e7c09f]
