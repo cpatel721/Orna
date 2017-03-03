@@ -10,12 +10,12 @@ module.exports = {
     browser.pause(3000)
       .click('.btn btn-success')
     browser.pause(3000)
-      .setValue('','FireLabTEST') // Name
-      .setValue('','1212 Aves of America')  // Address
-      .setValue('','New York City') // City
-      .setValue('','New york') // State
-      .setValue('','11013') // Zip
-      .click('') // Save 
+      // .setValue('','FireLabTEST') // Name
+      // .setValue('','1212 Aves of America')  // Address
+      // .setValue('','New York City') // City
+      // .setValue('','New york') // State
+      // .setValue('','11013') // Zip
+      // .click('') // Save 
   },
 
   'Browser quit': function (browser) {
@@ -24,3 +24,16 @@ module.exports = {
       .end();
   }
 };
+
+describe('FireLab website login', function() {
+it('should do login', function() {
+  browser.get('http://beta.firelabinc.com/');
+
+  element(by.model('vm.user.login')).sendKeys('rchovatiya88@gmail.com');
+  element(by.model('vm.user.password')).sendKeys('Gorilla');
+  element(By.buttonText('Login')).click();
+  browser.sleep(3000)
+ 
+ 
+});
+});

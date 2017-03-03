@@ -1,53 +1,61 @@
-00:11:03.490 INFO - Launching a standalone Selenium Server
-00:11:03.524 INFO - Java: Oracle Corporation 25.77-b03
-00:11:03.524 INFO - OS: Mac OS X 10.9.5 x86_64
-00:11:03.536 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-00:11:03.598 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+18:41:52.907 INFO - Launching a standalone Selenium Server
+18:41:52.939 INFO - Java: Oracle Corporation 25.77-b03
+18:41:52.939 INFO - OS: Mac OS X 10.9.5 x86_64
+18:41:52.950 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+18:41:53.013 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-00:11:03.599 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+18:41:53.014 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-00:11:03.599 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-00:11:03.599 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-00:11:03.601 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-00:11:03.601 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-00:11:03.662 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-00:11:03.662 INFO - Selenium Server is up and running
-00:11:03.951 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Scratchpad / Firelab, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
-00:11:03.960 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Scratchpad / Firelab, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
-Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 24946
+18:41:53.014 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+18:41:53.014 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+18:41:53.016 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+18:41:53.016 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+18:41:53.080 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+18:41:53.080 INFO - Selenium Server is up and running
+18:41:53.418 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Automation Demo / Orna, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
+18:41:53.430 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Automation Demo / Orna, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
+Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 5495
 Only local connections are allowed.
-00:11:04.959 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Scratchpad / Firelab, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
-00:11:04.975 INFO - Executing: [get: http://beta.firelabinc.com/])
-00:11:07.421 INFO - Done: [get: http://beta.firelabinc.com/]
-00:11:07.439 INFO - Executing: [find elements: By.cssSelector: body])
-00:11:07.474 INFO - Done: [find elements: By.cssSelector: body]
-00:11:07.478 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (c1d3b4ecdfc68c94653ddb60255d6a49)] -> css selector: body]])
-00:11:07.491 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (c1d3b4ecdfc68c94653ddb60255d6a49)] -> css selector: body]]
-00:11:07.497 INFO - Executing: [find element: By.cssSelector: #user])
-00:11:07.514 INFO - Done: [find element: By.cssSelector: #user]
-00:11:07.518 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (c1d3b4ecdfc68c94653ddb60255d6a49)] -> css selector: #user], [r, c, h, o, v, a, t, i, y, a, 8, 8, @, g, m, a, i, l, ., c, o, m]])
-00:11:07.583 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (c1d3b4ecdfc68c94653ddb60255d6a49)] -> css selector: #user], [r, c, h, o, v, a, t, i, y, a, 8, 8, @, g, m, a, i, l, ., c, o, m]]
-00:11:07.587 INFO - Executing: [find element: By.cssSelector: #password])
-00:11:07.647 INFO - Done: [find element: By.cssSelector: #password]
-00:11:07.652 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (c1d3b4ecdfc68c94653ddb60255d6a49)] -> css selector: #password], [G, o, r, i, l, l, a]])
-00:11:07.719 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (c1d3b4ecdfc68c94653ddb60255d6a49)] -> css selector: #password], [G, o, r, i, l, l, a]]
-00:11:07.723 INFO - Executing: [find element: By.cssSelector: .login-button])
-00:11:07.753 INFO - Done: [find element: By.cssSelector: .login-button]
-00:11:07.757 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (c1d3b4ecdfc68c94653ddb60255d6a49)] -> css selector: .login-button]])
-00:11:07.839 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (c1d3b4ecdfc68c94653ddb60255d6a49)] -> css selector: .login-button]]
-00:11:10.845 INFO - Executing: [find element: By.cssSelector: .btn btn-success])
-00:11:11.504 WARN - Exception thrown
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".btn btn-success"}
+18:41:54.561 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Automation Demo / Orna, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
+18:41:54.577 INFO - Executing: [get: http://beta.firelabinc.com/])
+18:41:57.438 INFO - Done: [get: http://beta.firelabinc.com/]
+18:41:57.448 INFO - Executing: [find elements: By.cssSelector: body])
+18:41:57.529 INFO - Done: [find elements: By.cssSelector: body]
+18:41:57.533 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: body]])
+18:41:57.550 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: body]]
+18:41:57.556 INFO - Executing: [find element: By.cssSelector: #user])
+18:41:57.572 INFO - Done: [find element: By.cssSelector: #user]
+18:41:57.577 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: #user], [r, c, h, o, v, a, t, i, y, a, 8, 8, @, g, m, a, i, l, ., c, o, m]])
+18:41:57.681 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: #user], [r, c, h, o, v, a, t, i, y, a, 8, 8, @, g, m, a, i, l, ., c, o, m]]
+18:41:57.685 INFO - Executing: [find element: By.cssSelector: #password])
+18:41:57.702 INFO - Done: [find element: By.cssSelector: #password]
+18:41:57.705 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: #password], [G, o, r, i, l, l, a]])
+18:41:57.790 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: #password], [G, o, r, i, l, l, a]]
+18:41:57.795 INFO - Executing: [find element: By.cssSelector: .login-button])
+18:41:57.812 INFO - Done: [find element: By.cssSelector: .login-button]
+18:41:57.815 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: .login-button]])
+18:41:57.887 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: .login-button]]
+18:42:12.903 INFO - Executing: [find element: By.cssSelector: li.nav-element:nth-child(3) > a:nth-child(1)])
+18:42:12.921 INFO - Done: [find element: By.cssSelector: li.nav-element:nth-child(3) > a:nth-child(1)]
+18:42:12.925 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: li.nav-element:nth-child(3) > a:nth-child(1)]])
+18:42:12.962 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: li.nav-element:nth-child(3) > a:nth-child(1)]]
+18:42:17.967 INFO - Executing: [find element: By.cssSelector: .btn])
+18:42:17.985 INFO - Done: [find element: By.cssSelector: .btn]
+18:42:17.987 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: .btn]])
+18:42:18.133 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: .btn]]
+18:42:18.138 INFO - Executing: [find element: By.cssSelector: #name])
+18:42:18.162 INFO - Done: [find element: By.cssSelector: #name]
+18:42:18.166 INFO - Executing: [send keys: 6 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: #name], [I, n, s, p, e, c, t, o, r,  , T, e, s, t]])
+18:42:19.563 WARN - Exception thrown
+org.openqa.selenium.ElementNotVisibleException: element not visible
   (Session info: chrome=56.0.2924.87)
   (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 18 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 50 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
 System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=.btn btn-success}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.voE42I}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 891f3aa68edb05e1c9b45f9c7a52275e
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -55,328 +63,52 @@ Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:358)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.sendKeys(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:50)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:1)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-00:11:11.506 WARN - Exception: no such element: Unable to locate element: {"method":"css selector","selector":".btn btn-success"}
+18:42:19.566 WARN - Exception: element not visible
   (Session info: chrome=56.0.2924.87)
   (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 18 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 50 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
 System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=.btn btn-success}
-00:11:14.598 INFO - Executing: [find element: By.cssSelector: ])
-00:11:14.975 WARN - Exception thrown
-org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 19 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-00:11:14.976 WARN - Exception: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 19 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-00:11:15.075 INFO - Executing: [find element: By.cssSelector: ])
-00:11:15.434 WARN - Exception thrown
-org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 7 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-00:11:15.435 WARN - Exception: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 7 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-00:11:15.536 INFO - Executing: [find element: By.cssSelector: ])
-00:11:15.898 WARN - Exception thrown
-org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-00:11:15.899 WARN - Exception: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-00:11:16.003 INFO - Executing: [find element: By.cssSelector: ])
-00:11:16.368 WARN - Exception thrown
-org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 7 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-00:11:16.369 WARN - Exception: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 7 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-00:11:16.476 INFO - Executing: [find element: By.cssSelector: ])
-00:11:16.863 WARN - Exception thrown
-org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 8 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-00:11:16.864 WARN - Exception: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 8 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-00:11:16.958 INFO - Executing: [find element: By.cssSelector: ])
-00:11:17.417 WARN - Exception thrown
-org.openqa.selenium.InvalidSelectorException: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 9 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-00:11:17.418 WARN - Exception: invalid selector: No selector specified
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6),platform=Mac OS X 10.9.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 9 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'amees-mbp.fios-router.home', ip: '192.168.1.179', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.krEEyq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c1d3b4ecdfc68c94653ddb60255d6a49
-*** Element info: {Using=css selector, value=}
-00:11:22.526 INFO - Executing: [delete session: 3f69e42b-fc1a-4de2-9160-52ea5c22267e])
-00:11:22.600 INFO - Done: [delete session: 3f69e42b-fc1a-4de2-9160-52ea5c22267e]
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/gy/lb5_cwlx4m3fyx994jbxzk8m0000gp/T/.org.chromium.Chromium.voE42I}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 891f3aa68edb05e1c9b45f9c7a52275e
+18:42:19.621 INFO - Executing: [find element: By.cssSelector: #position])
+18:42:19.637 INFO - Done: [find element: By.cssSelector: #position]
+18:42:19.642 INFO - Executing: [send keys: 7 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: #position], [M, a, r, s, h, a, l]])
+18:42:19.692 INFO - Done: [send keys: 7 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: #position], [M, a, r, s, h, a, l]]
+18:42:19.697 INFO - Executing: [find element: By.cssSelector: #email])
+18:42:19.726 INFO - Done: [find element: By.cssSelector: #email]
+18:42:19.733 INFO - Executing: [send keys: 8 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: #email], [f, i, r, e, i, n, s, p, e, c, t, o, r, @, f, i, r, e, h, o, u, s, e, ., c, o, m]])
+18:42:19.862 INFO - Done: [send keys: 8 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: #email], [f, i, r, e, i, n, s, p, e, c, t, o, r, @, f, i, r, e, h, o, u, s, e, ., c, o, m]]
+18:42:19.866 INFO - Executing: [find element: By.cssSelector: #phone])
+18:42:19.888 INFO - Done: [find element: By.cssSelector: #phone]
+18:42:19.892 INFO - Executing: [send keys: 9 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: #phone], [1, 8, 0, 0, 1, 2, 9, 4, 1, 8, 0]])
+18:42:19.946 INFO - Done: [send keys: 9 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: #phone], [1, 8, 0, 0, 1, 2, 9, 4, 1, 8, 0]]
+18:42:19.953 INFO - Executing: [find element: By.cssSelector: button.btn])
+18:42:20.026 INFO - Done: [find element: By.cssSelector: button.btn]
+18:42:20.029 INFO - Executing: [click: 10 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: button.btn]])
+18:42:20.089 INFO - Done: [click: 10 [[ChromeDriver: chrome on MAC (891f3aa68edb05e1c9b45f9c7a52275e)] -> css selector: button.btn]]
+18:42:35.100 INFO - Executing: [delete session: 2843a3cb-1162-48ce-a6a7-ae5a78b36f93])
+18:42:35.174 INFO - Done: [delete session: 2843a3cb-1162-48ce-a6a7-ae5a78b36f93]
