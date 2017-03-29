@@ -1,8 +1,8 @@
-screenshots
-log
-reports
-.DS_Store
-.classpath
-.project
-.settings/
-node_modules
+//screenshots
+//log
+//reports
+//.DS_Store
+//.classpath
+//.project
+//.settings/
+//node_modules
